@@ -115,8 +115,8 @@ li {
 h1 {
   font-size: 56px;
   font-weight: bold;
-  font: var(--header-1, 700 56px/60px "Roboto", sans-serif);
-  letter-spacing: 2%;
+  font-family:  'Roboto', sans-serif;
+  letter-spacing: 2px;
   line-height: 60px;
   padding: 165px 0;
   text-align: center;
@@ -126,7 +126,7 @@ h1 {
   box-sizing: border-box;
 }
 .button {
-  background: var(--iris, #4d5ae5);
+  background:  #4d5ae5;
   border-radius: 4px;
   padding: 16px 32px;
   display: flex;
@@ -168,13 +168,13 @@ h1 {
   color: #2e2f42;
   text-align: left;
   width: 264px;
-  font: "Roboto", sans-serif;
+  font-family:  'Roboto', sans-serif;
   position: relative;
 }
 .feature-nar {
   color: #434455;
   text-align: left;
-  font: "Roboto", sans-serif;
+  font-family:  'Roboto', sans-serif;
   position: relative;
   width: 264px;
   font-weight: 400;
@@ -197,7 +197,7 @@ h1 {
   line-height: 40px;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  font: "Roboto", sans-serif;
+  font-family:  'Roboto', sans-serif;
   position: relative;
 }
 .what-are-we {
@@ -239,9 +239,9 @@ h1 {
   
 }
 .section4-title {
-  color: var(--navyblue, #2e2f42);
+  color:  #2e2f42;
   text-align: center;
-  font: var(--header-2, 700 36px/40px "Roboto", sans-serif);
+  font:  700 36px/40px "Roboto", sans-serif;
   position: relative;}
 
 .our-team{ #2e2f42;
@@ -259,7 +259,8 @@ h1 {
     left: 140px;
     top: 156px;
 }
-.team-items{   background: var(--white, #ffffff);
+.team-items{   
+  background:  #ffffff;
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
   display: flex;
@@ -291,7 +292,7 @@ h1 {
   width: 232px;
   position: relative;}
 .names{
-      .content{display: flex;
+  display: flex;
   flex-direction: column;
   gap: 8px;
   align-items: center;
@@ -299,11 +300,11 @@ h1 {
   flex-shrink: 0;
   width: 232px;
   position: relative;}
-}
+
 .position{
-  color: var(--slate, #434455);
+  color:  #434455;
   text-align: center;
-  font: var(--body, 400 16px/24px "Roboto", sans-serif);
+  font-family:  'Roboto', sans-serif;
   position: relative;
 }
 .footer{
@@ -345,16 +346,17 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: flex-start;}
-.footer-text{    
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;}
-.footer-content{
-  color:#f4f4fd;
+
+  .footer-content{
+  left: 156px;
+  top: 2420px;
+  width: 264px;
+  position:static   
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
   text-align: left;
   font:  400 16px/24px "Roboto", sans-serif;
-  position: relative;
-  width: 264px;
 }
