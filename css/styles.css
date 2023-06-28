@@ -122,8 +122,7 @@ h1 {
   text-align: center;
   color: #ffffff;
 }
-.button,
-.button * {
+.button {
   box-sizing: border-box;
 }
 .button {
@@ -276,7 +275,6 @@ h1 {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 20px;
-   
 }
 .team-image{
   flex-shrink: 0;
@@ -319,8 +317,6 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-
     width: 115px;
     height: 24px;
     left: 156px;
@@ -338,7 +334,6 @@ h1 {
   gap: 0px;
   align-items: center;
   justify-content: flex-start;
-  
   position: relative;}
 .logo2{color: var(--iris, #4d5ae5);
   text-align: left;
@@ -350,13 +345,14 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: flex-start;}
-  .footer-text{    
+.footer-text{    
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #F4F4FD;}
-.footer-content{color:#f4f4fd;
+.footer-content{
+  color:#f4f4fd;
   text-align: left;
   font:  400 16px/24px "Roboto", sans-serif;
   position: relative;
