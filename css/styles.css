@@ -2,7 +2,9 @@
 :root {
   --primary-text-color: #434455;
   --primary-white-color: #ffff;
+  --primary-blue-color: #4d5ae5;
   --primary-background-color: #2e2f42;
+  --secondary-white-color: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -15,4 +17,44 @@ body {
   text-decoration: none;
 }
 .item-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+/* END OF GERNERAL STYLE */
+
+/* HEADER SECTION */
+.header-logo {
+  padding: 0px;
+  width: 44px;
+  height: 24px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo1 {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
