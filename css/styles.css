@@ -16,6 +16,7 @@ body {
 }
 .link {
   text-decoration: none;
+  color: var(--navyblue, #2e2f42);
 }
 .item-title {
   font-family: inherit;
@@ -33,6 +34,12 @@ body {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+.filter-button-list {
+  list-style: none;
+}
+.row-list {
+  list-style: none;
 }
 /* END OF GERNERAL STYLE */
 
@@ -105,4 +112,53 @@ body {
 }
 .footer {
   background: var(--navyblue, #2e2f42);
+}
+
+.filter-button-label {
+  color: var(--white, #fff);
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.filter-button-label {
+  border-radius: 4px;
+  background: var(--ocean, #404bbf);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.filter-button-label-2 {
+  color: var(--iris, #4d5ae5);
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.filter-button-label-2 {
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--cloud, #f4f4fd);
+}
+.portfolio-title {
+  color: var(--navyblue, #2e2f42);
+  font-family: inherit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.portfolio-text {
+  color: var(--slate, #434455);
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
