@@ -93,7 +93,7 @@ ul {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   text-allign:
 }
-.button-primary {
+.button {
   color: var(--white, #fff);
   font-family: inherit;
   font-size: 16px;
