@@ -14,186 +14,181 @@
   </head>
   <body>
     <!-- HEADER -->
-    <!--NAVIGATION BAR-->
-    <header class="header">
-      <div>
-        <nav class="header-navigation">
-          <a class="header-logo" href="./index.html">
-            <span class="logo1">WEB</span>STUDIO</a
+    <header class="page-header">
+      <!--NAVIGATION BAR-->
+      <nav>
+        <a class="logo-link" href="./index.html">
+          <span class="logo">WEB</span>
+          <span class="studio">STUDIO</span>
+        </a>
+        <ul class="nav-menu list">
+          <li>
+            <a class="page current" href="./index.html">Studio</a>
+          </li>
+          <li>
+            <a class="page" href="./portfolio.html">Portolio</a>
+          </li>
+          <li>
+            <a class="page" href="./portfolio.html">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="contacts-menu list">
+        <li>
+          <a class="item" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
           >
-          <ul class="header-list list">
-            <li class="header-item">
-              <a class="header-link link" href="./index.html">Studio</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="./portfolio.html">Portolio</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="./index.html">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <!--Inserting hyperlink-->
-      <address class="header-address">
-        <ul class="header-address-list list">
-          <li class="header-address-item">
-            <a class="header-address-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-address-item">
-            <a class="header-address-link link" href="tel:+110001111111"
-              >+110001111111</a
-            >
-          </li>
-        </ul>
-      </address>
-      <!-- HEADER  FILTER BUTTON -->
-      <section class="filter-button">
-        <ul class="filter-button-list">
-          <li class="filter-button-item">
-            <button class="filter-button-label" type="button">All</button>
-          </li>
-          <li class="filter-button-item-2">
-            <button class="filter-button-label-2" type="button">
-              Web Site
-            </button>
-          </li>
-          <li class="filter-button-item-2">
-            <button class="filter-button-label-2" type="button">App</button>
-          </li>
-          <li class="filter-button-item-2">
-            <button class="filter-button-label-2" type="button">Design</button>
-          </li>
-          <li class="filter-button-item-2">
-            <button class="filter-button-label-2" type="button">
-              Marketing
-            </button>
-          </li>
-        </ul>
-      </section>
+        </li>
+        <li>
+          <a class="item" href="tel:+110001111111">+110001111111</a>
+        </li>
+      </ul>
     </header>
 
     <main>
-      <!--ROW 1 SECTION-->
+      <section>
+        <div class="container">
+          <ul class="filters list">
+            <li>
+              <button class="button filter current" type="button">All</button>
+            </li>
+            <li>
+              <button class="button filter" type="button">Web Site</button>
+            </li>
+            <li>
+              <button class="button filter" type="button">App</button>
+            </li>
+            <li>
+              <button class="button filter" type="button">Design</button>
+            </li>
+            <li>
+              <button class="button filter" type="button">Marketing</button>
+            </li>
+          </ul>
+          <!-- PROJECTS -->
+          <ul class="projects list">
+            <li>
+              <a href="" class="project">
+                <img
+                  src="./images/port-img1.png"
+                  alt="bank log-in application"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Banking App Interface Concept</h2>
+                <p class="type">App</p>
+              </a>
+            </li>
 
-      <section class="row-1">
-        <ul class="row-1-list row-list">
-          <li class="row-1-item">
-            <img
-              src="./images/port-img1.png"
-              alt="bank log-in application"
-              width="360"
-              height="300"
-            />
-            <h3 class="row-1-title portfolio-title">
-              Banking App Interface Concept
-            </h3>
-            <p class="row-1-text portfolio-text">App</p>
-          </li>
-          <li class="row-1-item">
-            <img
-              src="./images/port-img2.png"
-              alt="cellphone with QR Code"
-              width="360"
-              height="300"
-            />
-            <h3 class="row-1-title portfolio-title">Cashless Payment</h3>
-            <p class="row-1-text portfolio-text">Marketing</p>
-          </li>
-          <li class="row-1-item">
-            <img
-              src="./images/port-img3.png"
-              alt="cellphone and laptop"
-              width="360"
-              height="300"
-            />
-            <h3 class="row-1-title portfolio-title">Meditation App</h3>
-            <p class="row-1-text portfolio-text">App</p>
-          </li>
-        </ul>
-      </section>
-      <!-- Row 2 Section -->
-      <section class="row-2">
-        <ul class="row-2-list row-list">
-          <li class="row-2-item">
-            <img
-              src="./images/port-img4.png"
-              alt="driver car front seat"
-              width="360"
-              height="300"
-            />
-            <h3 class="row-2-title portfolio-title">Organic Food</h3>
-            <p class="row-2-text portfolio-text">Web Site</p>
-          </li>
-          <li class="row-2-item">
-            <img
-              src="./images/port-img5.jpg"
-              alt="cellphone wallpaper"
-              width="360"
-              height="300"
-            />
-            <h3 class="row-2-title portfolio-title">Screen Illustrations</h3>
-            <p class="row-2-text portfolio-text">Design</p>
-          </li>
-          <li class="row-2-item">
-            <img
-              src="./images/port-img6.png"
-              alt="Girl in yellow sweater"
-              width="360"
-              height="300"
-            />
-            <h3 class="row-2-title portfolio-title">Online Courses</h3>
-            <p class="row-2-text portfolio-text">Marketing</p>
-          </li>
-        </ul>
-      </section>
-      <!-- Row 3 Section -->
-      <section class="row-3">
-        <ul class="row-3-list row-list">
-          <li class="row-3-item">
-            <img
-              src="./images/port-img7.png"
-              alt="marketing portfolio"
-              width="360"
-              height="300"
-            />
-            <h3 class="row-3-title portfolio-title">
-              Instagram Stories Concept
-            </h3>
-            <p class="row-3-text portfolio-text">Design</p>
-          </li>
-          <li class="row-3-item">
-            <img
-              src="./images/port-img8.png"
-              alt="vegatables groceries"
-              width="360"
-              height="300"
-            />
-            <h3 class="row-3-title portfolio-title">Organic Food</h3>
-            <p class="row-3-text portfolio-text">Website</p>
-          </li>
-          <li class="row-3-item">
-            <img
-              src="./images/port-img9.png"
-              alt="Coffee"
-              width="360"
-              height="300"
-            />
-            <h3 class="row-3-title portfolio-title">Fresh Coffee</h3>
-            <p class="row-3-text portfolio-text">Web Site</p>
-          </li>
-        </ul>
+            <li>
+              <a href="" class="project">
+                <img
+                  src="./images/port-img2.png"
+                  alt="cellphone with QR Code"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="name">Cashless Payment</h2>
+                <p class="type">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="project">
+                <img
+                  src="./images/port-img3.png"
+                  alt="cellphone and laptop"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="name">Meditation App</h2>
+                <p class="type">App</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="project">
+                <img
+                  src="./images/port-img4.png"
+                  alt="driver car front seat"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="name">Organic Food</h2>
+                <p class="type">Web Site</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="project">
+                <img
+                  src="./images/port-img5.jpg"
+                  alt="cellphone wallpaper"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="name">Screen Illustrations</h2>
+                <p class="type">Design</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="project">
+                <img
+                  src="./images/port-img6.png"
+                  alt="Girl in yellow sweater"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="name">Online Courses</h2>
+                <p class="type">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="project">
+                <img
+                  src="./images/port-img7.png"
+                  alt="marketing portfolio"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="name">Instagram Stories Concept</h2>
+                <p class="type">Design</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="project">
+                <img
+                  src="./images/port-img8.png"
+                  alt="vegatables groceries"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="name">Organic Food</h2>
+                <p class="type">Website</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="project">
+                <img
+                  src="./images/port-img9.png"
+                  alt="Coffee"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="name">Fresh Coffee</h2>
+                <p class="type">Web Site</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!--Footer-->
     <footer class="footer">
-      <a class="header-logo" href="./portfolio.html">
-        <span class="logo1">WEB</span>STUDIO</a
-      >
-      <p class="footer-text text">
+      <a class="logo-link" href="./index.html">
+        <span class="logo">WEB</span>
+        <span class="studio1">STUDIO</span>
+      </a>
+      <p class="footer-description">
         Increase the flow of customers and <br />
         sales for your business with digital <br />
         marketing and growth solutions.
