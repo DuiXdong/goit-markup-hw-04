@@ -246,10 +246,12 @@ body {
 }
 .name {
   padding-top: 32px;
-  border: 1px solid var(--cornflower, #e7e9fc);
 }
 .type {
   padding-bottom: 32px;
+}
+.project {
+  order: 1px solid var(--cornflower, #e7e9fc);
 }
 .project-2 {
   display: flex;
