@@ -30,7 +30,7 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   letter-spacing: 0.03em;
-  width: 1550px;
+  width: 1158px;
 }
 .page-header {
   height: 72px;
@@ -246,6 +246,7 @@ body {
 }
 .name {
   padding-top: 32px;
+  border: 1px solid var(--cornflower, #e7e9fc);
 }
 .type {
   padding-bottom: 32px;
