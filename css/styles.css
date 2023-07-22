@@ -243,6 +243,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 24px;
+  padding: 10px;
 }
 .project {
   order: 1px solid var(--cornflower, #e7e9fc);
@@ -265,4 +266,8 @@ body {
 .substrate {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.project.list {
+  padding: 30px 20px;
+  width: calc((100% - 30px) / 3);
 }
