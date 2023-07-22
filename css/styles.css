@@ -232,15 +232,8 @@ body {
   justify-content: center;
   margin-bottom: 50px;
 }
-/* .filters.list {
-  display: flex;
-  justify-content: center;
-  padding-top: 168px;
-  padding-bottom: 72px;
-  gap: 24px;
-} */
+
 .button.filter {
-  /* border-radius: 4px; */
   padding: 6px 22px;
   background: var(--cloud, #f4f4fd);
   color: var(--primary-blue-color);
