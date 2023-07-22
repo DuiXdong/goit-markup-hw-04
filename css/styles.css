@@ -241,7 +241,7 @@ body {
 }
 .project-card {
   display: inline-flex;
-  justify-content: center;
+  align-items: center;
   gap: 24px;
 }
 .project {
