@@ -16,21 +16,22 @@ h6 {
   margin: 0;
 }
 
-ul,
+/* ul,
 ol {
   margin: 0;
   padding: 0;
-}
+} */
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
   font-size: 16px;
   letter-spacing: 0.03em;
-  width: 1158px;
 }
 .page-header {
   height: 72px;
@@ -84,8 +85,12 @@ body {
   letter-spacing: 0.02em;
 }
 .nav-menu .page:hover,
-.nav-menu .page:focus {
+.nav-menu .page:focus,
+.nav-menu .page.current,
+.contacts-menu .contact:hover,
+.contacts-menu .contact:focus {
   color: var(--ocean);
+  cursor: pointer;
 }
 .contacts-menu {
   display: flex;
@@ -171,14 +176,16 @@ body {
   line-height: 1.17;
 }
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .section-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
   line-height: 1.17;
+  margin-bottom: 50px;
+  font-weight: 700;
 }
 .what-we-do {
   display: flex;
@@ -220,25 +227,35 @@ body {
   padding-left: 156px;
   color: var(--secondary-white-color);
 }
-.filters.list {
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+/* .filters.list {
   display: flex;
   justify-content: center;
   padding-top: 168px;
   padding-bottom: 72px;
   gap: 24px;
-}
+} */
 .button.filter {
-  border-radius: 4px;
+  /* border-radius: 4px; */
+  padding: 6px 22px;
   background: var(--cloud, #f4f4fd);
   color: var(--primary-blue-color);
   font-weight: 500;
   line-height: 1.62;
 }
 .button.filter:hover,
-.button.filter:focus .button.filter.current {
+.button.filter:focus,
+.button.filter.current {
   background-color: var(--ocean);
   color: var(--secondary-white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1) 0px 1px 2px rgba(0, 0, 0, 0.8) 0px
+    2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .project-card {
   display: inline-flex;
   align-items: center;
@@ -247,6 +264,12 @@ body {
 }
 .project {
   order: 1px solid var(--cornflower, #e7e9fc);
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-right: -30px;
 }
 .project .name {
   color: var(--navyblue, #2e2f42);
@@ -270,4 +293,11 @@ body {
 .project.list {
   padding: 30px 20px;
   width: calc((100% - 30px) / 9);
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
