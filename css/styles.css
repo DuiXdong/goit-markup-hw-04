@@ -19,29 +19,24 @@ h6 {
 html {
   box-sizing: border-box;
 }
-/* done */
 *,
 *::before *::after {
   box-sizing: inherit;
 }
-/* done */
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-/* done */
 .link {
   text-decoration: none;
   color: inherit;
 }
-/* done */
 .list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* done */
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
@@ -49,7 +44,6 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--white);
 }
-/* done */
 .menu,
 .navigation,
 .contacts-menu,
@@ -57,12 +51,10 @@ body {
   display: flex;
   align-items: center;
 }
-/* done */
 .page-header {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 
-/* done */
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -71,34 +63,28 @@ body {
   margin-right: auto;
 }
 
-/* done */
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-size: 0;
   font-weight: 800;
   text-decoration: none;
 }
-/* done */
 .logo-link > span {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-/* done */
 .logo,
 .studio {
   color: var(--iris, #4d5ae5);
   display: inline-block;
 }
-/* done */
 .studio {
   color: var(--navyblue, #2e2f42);
 }
-/* done */
 .nav-menu {
   margin-left: 93px;
 }
-/* done */
 .nav-menu .page {
   color: var(--navyblue, #2e2f42);
   text-decoration: none;
@@ -117,20 +103,16 @@ body {
 .contacts-menu .contact:focus {
   color: var(--iris);
 }
-/* done */
 .contacts-menu {
   margin-left: auto;
 }
-/* done */
 .contacts-menu .contact {
   font-weight: 400;
 }
-/* done */
 .nav-menu .item:not(:last-child),
 .contacts-menu .item:not(:last-child) {
   margin-right: 50px;
 }
-/* done */
 .contacts-menu .contact {
   color: var(--slate, #434455);
   font-weight: 400;
@@ -138,15 +120,18 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-/* done */
 .bg-hero {
   background: var(--navyblue, #2e2f42);
 }
 .hero {
   padding: 200px 0;
   text-align: center;
+  background-image: url(../images/hero-image.png),
+    linear-gradient(#111319, #111319);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-/* done */
 .hero-title {
   color: var(--white, #fff);
   font-size: 56px;
@@ -155,11 +140,9 @@ body {
   letter-spacing: 0.06em;
   margin-bottom: 30px;
 }
-/* done */
 .bg-team {
   background-color: var(--cloud);
 }
-/* done */
 .button {
   border-color: transparent;
   font-family: inherit;
@@ -168,7 +151,6 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
-/* done */
 .button.primary {
   background: var(--iris);
   line-height: 1.87;
@@ -178,14 +160,12 @@ body {
   padding: 10px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-/* done */
 .button.primary:hover,
 .button.primary:focus {
   background-color: var(--ocean);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-/* done */
 .benefits {
   display: flex;
   flex-wrap: wrap;
@@ -197,7 +177,6 @@ body {
   margin-left: 30px;
   margin-top: 30px;
 }
-/* done */
 .benefits .title {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
@@ -205,23 +184,19 @@ body {
   line-height: 1.14;
   margin-bottom: 10px;
 }
-/* done */
 .benefits .description {
   color: var(--slate, #434455);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.17;
 }
-/* done */
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-/* done */
 .section.no-top-padding {
   padding-top: 0px;
 }
-/* done */
 .section-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -236,20 +211,17 @@ body {
   margin-left: -30px;
   margin-top: -30px;
 }
-/* done */
 .what-we-do .item {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
 }
-/* done */
 .team {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
-/* done */
 .team .item {
   flex-basis: calc(100% / 4 - 30px);
   margin-top: 30px;
@@ -260,13 +232,11 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-/* done */
 .team .name,
 .team .position {
   line-height: 1.19;
   text-align: center;
 }
-/* done */
 .team .name {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
@@ -274,30 +244,24 @@ body {
   padding-top: 30px;
   padding-bottom: 10px;
 }
-/* done */
 .team .position {
   color: var(--slate, #434455);
   font-size: 16px;
   font-weight: 400;
 }
-/* done */
 .logo-link.footer {
   margin-bottom: 20px;
 }
 
-/* done */
 .page-footer {
   padding: 60px 0;
 }
-/* done */
 .page-footer.bg-footer {
   background: var(--navyblue, #2e2f42);
 }
-/* done */
 .studio-footer {
   color: var(--white);
 }
-/* done */
 .footer-description {
   padding-top: 17.5px;
   color: var(--white);
@@ -305,17 +269,14 @@ body {
   line-height: 1.5;
   font-weight: 400;
 }
-/* done */
 .filters {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-/* done */
 .filters .space + .space {
   margin-left: 8px;
 }
-/* done */
 .button.filter {
   padding: 6px 22px;
   background: var(--cloud, #f4f4fd);
@@ -323,7 +284,6 @@ body {
   font-weight: 500;
   line-height: 1.62;
 }
-/* done */
 .button.filter:hover,
 .button.filter:focus,
 .button.filter.current {
@@ -339,14 +299,12 @@ body {
   margin-top: 30px;
 }
 
-/* done */
 .projects {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
-/* done */
 .project .name {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
@@ -355,14 +313,12 @@ body {
   letter-spacing: 0.06em;
   margin-bottom: 6px;
 }
-/* done */
 .project .type {
   color: var(--slate, #434455);
   font-weight: 400;
   line-height: 1.87;
   font-size: 16px;
 }
-/* done */
 .substrate {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
