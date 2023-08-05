@@ -126,8 +126,12 @@ body {
 .hero {
   padding: 200px 0;
   text-align: center;
-  background-image: url(../images/hero-image.png),
-    linear-gradient(#111319, #111319);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.78),
+      rgba(46, 47, 66, 0.78)
+    ),
+    url(../images/hero-image.png);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -165,6 +169,23 @@ body {
   background-color: var(--ocean);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.feature-icons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  background-color: var(--cloud);
+}
+.feature-icons .feature-icons-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.feat-icons {
+  align-items: center;
+  justify-content: center;
 }
 .benefits {
   display: flex;
@@ -248,6 +269,29 @@ body {
   color: var(--slate, #434455);
   font-size: 16px;
   font-weight: 400;
+}
+.team-icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+.team-social-item {
+  width: 44px;
+  height: 44px;
+}
+.team-social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--iris);
+}
+.social-icons {
+  color: var(--white);
 }
 .logo-link.footer {
   margin-bottom: 20px;
