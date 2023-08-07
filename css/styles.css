@@ -284,6 +284,7 @@ body {
   height: 44px;
   flex-shrink: 0;
   background: var(--iris);
+  color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -294,7 +295,7 @@ body {
   background-color: var(--ocean);
 }
 .social-icons {
-  fill: var(--white);
+  fill: currentColor;
 }
 .logo-link.footer {
   margin-bottom: 20px;
