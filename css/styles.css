@@ -297,6 +297,35 @@ body {
 .social-icons {
   fill: currentColor;
 }
+.customer-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 120px;
+  margin-top: 72px;
+}
+.customer-item {
+  color: #8e8f99;
+  border: 1px solid #8e8f99;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customer-link {
+  width: calc(100%-150px) / 6;
+  height: 90px;
+}
+.customer-link:hover,
+.customer-link:focus {
+  color: var(#404bbf);
+  border-color: #404bbf;
+}
+.customer-icon {
+  fill: currentColor;
+}
+
 .logo-link.footer {
   margin-bottom: 20px;
 }
@@ -372,4 +401,18 @@ body {
   border: 1px solid #eeeeee;
   border-top: 0;
   background-color: var(--white);
+}
+.social-title {
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.social-footer {
+  display: block;
+}
+.social-title {
+  display: flex;
 }
