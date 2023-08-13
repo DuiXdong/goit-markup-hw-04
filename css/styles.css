@@ -186,7 +186,7 @@ body {
 .feature-icons {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 24px;
   width: 100%;
@@ -255,18 +255,17 @@ body {
 .team {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
+  gap: 30px;
 }
 .team .item {
   flex-basis: calc(100% / 4 - 30px);
-  margin-top: 30px;
-  margin-left: 30px;
-  padding-bottom: 30px;
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.team-container {
+  padding: 32px 16px;
 }
 .team .name,
 .team .position {
@@ -277,7 +276,6 @@ body {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
-  padding-top: 30px;
   padding-bottom: 10px;
 }
 .team .position {
@@ -290,9 +288,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
-  gap: 24px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .team-social-item {
   width: 44px;
@@ -361,12 +358,10 @@ body {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  padding-bottom: 72px;
 }
 .customer-list {
   display: flex;
   gap: 30px;
-  margin-bottom: 120px;
   margin-top: 72px;
 }
 .customer-item {
